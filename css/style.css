@@ -580,6 +580,11 @@
     color: #f57308;
     font-family: "italic", sans-serif;
     font-size: 20px;
+    border-bottom: 5px solid #0a0404; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    border-top: 10px solid #0a0404; 
+    
   }
   
   .projects .carousel .card img {
@@ -977,3 +982,22 @@
       line-height: 38px;
     }
   }
+
+/* Projects link */
+.project-links {
+  display: flex;
+  align-items: center;
+}
+
+.project-links a {
+  margin-right: 20px; /* Adjust spacing as needed */
+  text-decoration: none;
+  color: #333; /* Link color */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.project-links a i {
+  margin-right: 5px; /* Adjust spacing between icon and text */
+}
