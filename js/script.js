@@ -43,8 +43,8 @@ $(document).ready(function () {
         "Fullstack Developer",
         "Software Developer",
         "Python Developer",
-        "Founder",
-        "Author"
+        "ML Developer",
+        "Curious Guy"
       ],
       typeSpeed: 100,
       backSpeed: 60,
@@ -56,8 +56,7 @@ $(document).ready(function () {
         "Fullstack Developer",
         "Software Developer",
         "Python Developer",
-        "Founder",
-        "Author"
+        "ML Developer",
       ],
       typeSpeed: 100,
       backSpeed: 60,

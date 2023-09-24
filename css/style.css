@@ -1,4 +1,5 @@
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -544,12 +545,14 @@
   }
   
   .projects .carousel .card {
-    background: #222;
+    background: hsl(210, 85%, 69%);
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    min-height: fit-content;
+    margin: 10px 0 7px 0;
   }
   
   .projects .carousel .card:hover {
@@ -557,11 +560,10 @@
   }
   
   .projects .carousel .card .box {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    margin: 10px 0 7px 0;
   }
   
   .projects .carousel .card:hover .box {
@@ -572,6 +574,12 @@
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: #0412ae;
+  }
+  .projects .carousel .card .box p{
+    color: #f57308;
+    font-family: "italic", sans-serif;
+    font-size: 20px;
   }
   
   .projects .carousel .card img {
