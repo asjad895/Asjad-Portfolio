@@ -725,9 +725,6 @@
     display: flex;
     align-items: center;
   }
-  .right{
-    background-image: url(../img/contact.png);
-  }
   .right form .button-area button {
     color:blueviolet;
     display: block;
